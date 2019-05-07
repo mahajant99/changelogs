@@ -1,4 +1,48 @@
 =====================
+     07-05-2019
+=====================
+1. Dark Theme Improved
+2. Add Option to edit the icon Of app
+3. Ability to change the Lable Of each App
+4. Q style text clock
+5 agressive battery
+6 lockscreen art filter ( 3 styles ; blur , grayscale & both)
+7 location tile cycles
+8 cpu info tile
+9 cellular icon from oos
+10 deep sleep info to uptime
+11. Add Uninstall Shortcut to launcher
+12. Setting Intelliginece FC Fixed
+13. Add Snap Cam
+14. Change the updater Changelog to new Repo
+15. Shift System Dashboard to below About Phone Section
+16. Ambient music ticket (also make it q like)
+17. Text clock improvements
+18. Statusbar brightness control
+19. Q style battery icon
+20. Vector drawables in weather client
+21. Animate expandable volume panel
+22. Swipe fingerprint left/right to clear notifications(Device support needed)
+23. Old-style network indicator
+=====================
+	DEVICE
+=====================
+1. Most Stable Gcam for ur device Added and u can Install any version of GCAM v6.x
+2. DRM Blobs Updated to pie.
+3. Improved audio
+4. Kernel Upstreamed
+5. Kcal screen fade issue fixed
+6. AOD added, by default it will be disable.
+7. Set Default Hotspot name to Asus Zenfone Max Pro M1
+8. Add some more carrier config from LA.UM.7.2.r1-06700-sdm660.0
+9. New Caf Tag merged
+=====================
+	BUG
+=====================
+You Tell
+=====================
+
+=====================
      02-04-2019
 =====================
 1. April Patch Merged
