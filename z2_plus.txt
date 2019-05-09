@@ -71,4 +71,33 @@
 18.DEVICE* fixed dark gcam video
 19.DEVICE* fixed mic less headphone issues
 
+=====================
+    09-05-2019 
+=====================
+1. Add Uninstall Shortcut to launcher 
+2. Setting Intelliginece FC Fixed 
+3. Add Snap Cam 
+4. Change the updater Changelog to new Repo 
+5. Shift System Dashboard to below About Phone Section 
+6. Ambient music ticket (also make it q like) 
+7. Text clock improvements 
+8. Statusbar brightness control 
+9. Q style battery icon 
+10. Vector drawables in weather client 
+11. Animate expandable volume panel 
+12. Swipe fingerprint left/right to clear notifications
+13. Old-style network indicator
+====================
+      DEVICE 
+==================== 
+* Use Auto brightness for Ambient Display 
+* Enable OEM unlock and bootable image signing (so you'll be able to relock the device on custom ROMs when using the latest 3.3.0-1 TWRP) 
+* update init.msm.usb.* from LA.UM.7.6.2.r1-07600-89xx.0 
+* Added proper qcom aptx audio support 
+* Fixed navbar issues 
+* U-touch customisation 
+* Kernel compiled with latest clang 
+9.0.3 with all warnings fixed 
+* Kernel : merged 4.4.178
+* Kernel : merged latest caf tag (LA.UM.7.5.2.r1-02600-8x96.0 )
 
