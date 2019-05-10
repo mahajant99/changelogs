@@ -1,0 +1,27 @@
+
+May Security Patch Merged
+Default Kernel changed to Englezos
+1. Dark Theme Improved
+2. Add Option to edit the icon Of app
+3. Ability to change the Lable Of each App
+4. Q style text clock
+5 agressive battery
+6 lockscreen art filter ( 3 styles ; blur , grayscale & both)
+7 location tile cycles
+8 cpu info tile
+9 cellular icon from oos
+10 deep sleep info to uptime
+11. Add Uninstall Shortcut to launcher
+12. Setting Intelliginece FC Fixed
+13. Add Snap Cam
+14. Change the updater Changelog to new Repo
+15. Shift System Dashboard to below About Phone Section
+16. Ambient music ticket (also make it q like)
+17. Text clock improvements
+18. Statusbar brightness control
+19. Q style battery icon
+20. Vector drawables in weather client
+21. Animate expandable volume panel
+22. Swipe fingerprint left/right to clear notifications
+23. Old-style network indicator
+24. Fixed some audio quality issues as user(s) reported
