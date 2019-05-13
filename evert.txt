@@ -1,4 +1,79 @@
 ====================
+     05-12-2019
+====================
+
+
+   * frameworks/base/
+416209ea165 Fix 225693 SystemUI: add left and right virtual buttons while typing
+e8bca74ee5b SystemUI: add left and right virtual buttons while typing
+aa7666178d0 statusbar: adjust update logic for old mobile type
+d654fc10e9d base: Fix old mobile signal icons
+82f5c088b10 base: SystemUI: fix height of old data type icons
+0eb5f51e4d4 SystemUI: fix visibility of mobile type icon
+4f81ab091a5 [1/2] SystemUI: allow to switch back to pre P mobile type icon style
+b07460a5963 base: Add Q style battery icon toggle [1/2]
+15c34a58e44 Q style clock: Add DE translation.
+0b4773dd992 CustomTextClock: LangGuard: Update Portuguese translations - Also add langguard to strings below 20
+df62be967a4 CustomTextClock: Add more detailing to the functions - Basically fuckup everything and make it even more complex
+d38b4bed29f CustomTextClock: LangGuard: Add exceptions for turkish language
+0847afd6541 CustomTextClock: LangGuard: Fix dutch translations
+e37eb6a6094 Add Japanese and Dutch translation for Q text clock
+f9918e9d370 [1/2]: Add customisable alignment for Q style clock
+c2c9029ef1b CustomTextClock: Merge Translations
+287bce63f51 CustomTextClock: Fix my derps for O' - Only for en doe
+e4c625bd8c9 CustomTextClock: LangGuard: Remove unnecessary function to get hour strings seperately
+33b5ac8c22d CustomTextClock: Check if language has changed before setting toprow text
+220e9d9d0ba CustomTextClock: Remove methods moved in utility classes
+e76530cc5b6 CustomTextClock: This makes the lockscreen lag
+fd6d3c7e1b1 CustomTextClock: Ditch code related to color getting
+4117901dc90 CustomTextClock: Create LangGuard utility
+9615f3fa3df CustomTextClock: Refactor a few strings
+60f3f3871a2 CustomTextClock: Remove all logging - Now that its almost done
+a2af976cad6 CustomTextClock: Add O' again
+bcd77db89f2 CustomTextClock: Add Portuguese and French translations
+72ead7f3b8e CustomTextClock: Account for *almost* all of the possiblities while updating text color
+32c82752325 Squash Q-Clock un-hardcode strings and add translatable strings
+8711810d889 Revert "CustomTextClock: Allow translate clock strings"
+8493818dd6d Change TopTextView color according to wallpaper - After 2weeks of intensive mindfuck, it was as simple as putting it in onDraw - It wont be resource intensive as onDraw on topview isn't called constantly
+8ebda71fc56 Allow to dismiss notifications with back FP left/right swipe [1/2] if the panel is expanded.
+
+   * packages/apps/Settings/
+f66392d3c6 Settings: Add Q style battery icon toggle [2/2]
+e3d26bdeaf [2/2]: Add customisable alignment for Q style clock No shit Sherlock
+dc4f21c83b Allow dismiss notifications with FP left/right swipe [2/2]
+b429f5c90e [2/2] Settings: allow to switch back to pre P mobile type icon style
+
+====================
+     05-11-2019
+====================
+
+
+   * device/motorola/evert/
+28e26b5 Update clang version
+
+   * device/motorola/sdm660-common/
+ae9a6f0d No need dependencies
+
+====================
+     05-10-2019
+====================
+
+
+   * frameworks/base/
+0d768cf3e1f SystemUI: refresh some stuffs without systemui reboot
+
+====================
+     05-09-2019
+====================
+
+
+   * build/make/
+e4979448a Remove TARGET_USES_MKE2FS
+
+   * prebuilts/build-tools/
+03f9124 Remove sed symlink.
+
+====================
      05-08-2019
 ====================
 
@@ -13,9 +88,9 @@ c6d3dd1 Switch to DEX kernel
 1da05653 Fix LineageActions build
 54dc7659 Initial configuration and fixes
 
-   * frameworks/base/
-e65a668d2b0 Update privapp-permissions-platform.xml
-ccb6c328810 Update StorageManagerService.java
+   * prebuilts/clang/host/linux-x86/
+cdfcf96c Update prebuilt Clang to r353983c.
+12c637db Update prebuilt Clang to r353983b.
 
    * vendor/motorola/evert/
 55a9538 Fix SIM issues
@@ -25,155 +100,3 @@ d88cb72 Fix issues
 
    * vendor/pixys/
 bc3511b5 Update apns-conf.xml
-
-====================
-     05-07-2019
-====================
-
-
-   * bionic/
-8845f616f Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//bionic into HEAD
-
-   * bootable/recovery/
-d57ff593 Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//bootable/recovery into HEAD
-
-   * build/make/
-52520ac1d Merge tag 'android-9.0.0_r37' into pie
-
-   * development/
-4fe03e16d Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//development into HEAD
-
-   * frameworks/av/
-561c91000 Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//frameworks/av into HEAD
-
-   * frameworks/base/
-cf64c99b497 Remove UnUsed Arrays
-10eaf8e41ab Q style clock: Add DE translation.
-bc11b407268 CustomTextClock: LangGuard: Update Portuguese translations - Also add langguard to strings below 20
-4153d46bcbe CustomTextClock: Add more detailing to the functions - Basically fuckup everything and make it even more complex
-3470ac26ecc CustomTextClock: LangGuard: Add exceptions for turkish language
-da092494b6a CustomTextClock: LangGuard: Fix dutch translations
-4095d7b070d Add Japanese and Dutch translation for Q text clock
-0b664f60017 [1/2]: Add customisable alignment for Q style clock
-fe1ef6e4446 CustomTextClock: Merge Translations
-61f31a1db65 CustomTextClock: Fix my derps for O' - Only for en doe
-45e85d11620 CustomTextClock: LangGuard: Remove unnecessary function to get hour strings seperately
-bef3eccb6fe CustomTextClock: Check if language has changed before setting toprow text
-b11614af108 CustomTextClock: Remove methods moved in utility classes
-2ca8e32541c CustomTextClock: This makes the lockscreen lag
-6c9cb44a12b CustomTextClock: Ditch code related to color getting
-ecfc4b68230 CustomTextClock: Create LangGuard utility
-de99f5f0ca7 CustomTextClock: Refactor a few strings
-c1ebaba6652 CustomTextClock: Remove all logging - Now that its almost done
-62551428f1f CustomTextClock: Add O' again
-0dd19f0d8db CustomTextClock: Add Portuguese and French translations
-fc02949ba12 CustomTextClock: Account for *almost* all of the possiblities while updating text color
-e550e146d7e Squash Q-Clock un-hardcode strings and add translatable strings
-1ceca027a2c Revert "CustomTextClock: Allow translate clock strings"
-441ab421ed3 Allow to dismiss notifications with back FP left/right swipe [1/2]
-c6fe8106ea9 [1/2] SystemUI: allow to switch back to pre P mobile type icon style
-f83e6877c29 [1/2] base: Add Q style to battery icon chooser
-4256847fcb1 Weather client: switch to vector drawables
-bc7692b874f GamingModeTile: stop adjusting volume
-b2820e36565 Animate expandable volume panel
-5b55c8c8c8c CustomTextClock: Change 'It's' color according to wallpaper
-9d8d58a82b8 Q Clock - Guard system language change via intent
-d5506bf4ef0 CustomTextClock: Use arrays
-bb10f0be94f SystemUI: Port forward statusbar brightness control [1/2]
-33e2e6e5858 Ambient music ticker: fix text scrolling glitches
-e3ba8b85baf Improve ambient play layout on keyguard
-01ab25cf794 Ambient: do not extend pulse notification when not needed
-e8e2302e3c9 Avoid Ambient indicator overlap with multiple keyguard notifications
-58e5af72842 Ambient Display Music Ticker: Nuke song count info
-659d4d24cc7 Ambient Music Ticker: make it pixel like
-7ff7ed5c957 Ambient music: check if isMediaNotification after final inflation
-d701c644579 Ambient music / Now playing: show also on lockscreen
-edb75dee096 Ambient music: be sure to clean track info on media notification drop
-f42cff7fa97 A few more improvements for Ambient Music
-1ec73c74f3e Ambient music: don't trigger clean layout mode when in AoD
-badc304fa2a Ambient music ticker AoD: make it compatibile with double tap sensor
-0807b8e4eba Fix lockscreen double tap to open notifications after ambient music
-4cbb1c1c147 Ambient display music ticker [1/2]
-80251f137d9 Port ambient Now Playing container from Pixel [stripped down version]
-aae93c8cf99 Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//frameworks/base into HEAD
-
-   * frameworks/native/
-1ede93935 Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//frameworks/native into HEAD
-
-   * frameworks/opt/net/wifi/
-86e0560c2 Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//frameworks/opt/net/wifi into HEAD
-
-   * frameworks/opt/telephony/
-80bf1fa57 Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//frameworks/opt/telephony into HEAD
-
-   * hardware/interfaces/
-d00bc680 Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//hardware/interfaces into HEAD
-
-   * packages/apps/Contacts/
-ccebf8ce5 Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//packages/apps/Contacts into HEAD
-
-   * packages/apps/DocumentsUI/
-7007ddf2 Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//packages/apps/DocumentsUI into HEAD
-
-   * packages/apps/PackageInstaller/
-d835b89f Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//packages/apps/PackageInstaller into HEAD
-
-   * packages/apps/Settings/
-e52bf9e757 [2/2]: Add customisable alignment for Q style clock No shit Sherlock
-98d0d800e0 Allow dismiss notifications with FP left/right swipe [2/2]
-c6ef5cfcde [2/2] Settings: allow to switch back to pre P mobile type icon style
-e43125e4a8 Add Q style to battery icon chooser [2/2]
-f88d27bee9 Statusbar brightness control [2/2]
-c98ae60e02 Ambient display music ticker [2/2]
-6abb6c8399 Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//packages/apps/Settings into HEAD
-
-   * packages/inputmethods/LatinIME/
-d6e6e92b3 Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//packages/inputmethods/LatinIME into HEAD
-
-   * packages/providers/DownloadProvider/
-b7d03bc Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//packages/providers/DownloadProvider into HEAD
-
-   * packages/providers/MediaProvider/
-744655a Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//packages/providers/MediaProvider into HEAD
-
-   * packages/services/Telecomm/
-709bcd5c Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//packages/services/Telecomm into HEAD
-
-   * packages/services/Telephony/
-e78a21ffb Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//packages/services/Telephony into HEAD
-
-   * prebuilts/clang/host/linux-x86/
-75fafc51 Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//prebuilts/clang/host/linux-x86 into HEAD
-
-   * system/bt/
-a411bd190 Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//system/bt into HEAD
-
-   * system/core/
-e7dfac2e8 Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//system/core into HEAD
-
-   * system/netd/
-3040dc0 Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//system/netd into HEAD
-
-   * system/security/
-e56fbe5 Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//system/security into HEAD
-
-   * system/sepolicy/
-70e63743 Merge tag 'android-9.0.0_r37' of https://android.googlesource.com/platform//system/sepolicy into HEAD
-
-====================
-     05-06-2019
-====================
-
-
-====================
-     05-05-2019
-====================
-
-
-====================
-     05-04-2019
-====================
-
-
-   * kernel/motorola/msm8998/
-86978c6bcc81 update 5.1 add new 4.4.179 into caf pie
