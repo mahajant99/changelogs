@@ -10,3 +10,10 @@
     
    * Merged may sec patch
    * pixys side changes
+
+   #############
+   #  04/06/19 #
+   #############
+   
+   * Used Pixel Fingerprints
+   * And few other fixes
