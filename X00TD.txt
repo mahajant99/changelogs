@@ -1,4 +1,37 @@
 =====================
+     05-06-2019
+=====================
+1. June Security Patch Merged
+2. Heads-up tile
+3. Less boring heads-up toggle
+4. Lockscreen and ambient visualizer
+5. Media notification seekbar
+6. Enhanced battery estimate in QS
+7. Improved status bar icons and padding
+8. Improved 3-fingers screenshot (like miui)
+=====================
+       Device
+=====================
+1. Sync with Latest Kud Changes
+2. Kernel related derp fixed
+3. Added channel bonding for 2.4GHz WiFi
+4. Added Use EIS v2.0
+5. more vendor blobs updated and some were removed unused blobs(will increase performance)
+6. DRM Issue fixed
+7. Sound Cracking issue fixed from my side(Without any mod)
+8. App FC fixed (Like phone info etc)
+9. Add back Headphone Driver check everything with headphones(External mic fixed)
+10.New zenmotion icon added
+11. Greyscale Options added
+12. Kcal Prebuilt added all thanks to @sagarmakhar pari dada
+13. New Blobs from 053 added
+=====================
+        Bug
+=====================
+Nope
+=====================
+
+=====================
      07-05-2019
 =====================
 1. Dark Theme Improved
