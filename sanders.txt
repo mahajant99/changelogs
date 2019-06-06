@@ -1,3 +1,24 @@
+=====================
+     05-06-2019
+=====================
+1. Heads-up tile
+2. Less boring heads-up toggle
+3. Lockscreen and ambient visualizer
+4. Media notification seekbar
+5. Enhanced battery estimate in QS
+6. Improved status bar icons and padding
+7. Improved 3-fingers screenshot (like miui)
+8. Rounded corners and padding options (still to add)
+
+=====================
+	DEVICE
+=====================
+1.sanders: move wcnss_service to vendor 
+2.sanders: Enable metadata for FDE
+3.Using 9.0.3 Clang
+4.Kernel Upstream to 3.18.140
+5.sanders: update camera blobs from stock OPSS28.65-36-9
+6.Update DTVPlayer- v.01.01.0586 to v.01.01.0660
 
 =====================
      07-05-2019
