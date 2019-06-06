@@ -1,4 +1,25 @@
 =====================
+     07-06-2019
+=====================
+1. June Security Patch Merged
+2. Heads-up tile
+3. Less boring heads-up toggle
+4. Lockscreen and ambient visualizer options
+5. Media notification seekbar
+6. Enhanced battery estimate in QS
+7. Improved status bar icons and padding
+8. Improved 3-fingers screenshot (like miui)
+9. Rounded Corners and Padding options
+10. Chococooky and Rosemary fonts added
+11. Ambient Music Ticker added and also make it Q-like
+=====================
+       Device
+=====================
+1. Kernel Upstreamed to 4.9.176
+2. Added new dts-drivers
+3. Added bfq and fiops ioscheduler
+4. Flex's latest trees merged
+=====================
     07-05-2019
 =====================
 =====================
