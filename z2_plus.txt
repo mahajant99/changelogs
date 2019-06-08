@@ -101,3 +101,23 @@
 * Kernel : merged 4.4.178
 * Kernel : merged latest caf tag (LA.UM.7.5.2.r1-02600-8x96.0 )
 
+===================== 
+   08/06/2019
+===================== 
+• Heads-up tile 
+• Less boring heads-up toggle 
+• Lockscreen and ambient visualizer 
+• Media notification seekbar 
+• Enhanced battery estimate in QS 
+• Improved status bar icons and padding 
+• Improved 3-fingers screenshot 
+• Rounded corners and padding options
+
+=====================
+    Device
+====================
+• added Mac randomization
+• updated sepolicies
+• back to daisy power off alarm
+• kernel merged latest CAF tag ( 'LA.UM.7.5.2.r1-02900-8x96.0')
+• kernel merged 4.4.180 :)
