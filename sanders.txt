@@ -1,5 +1,5 @@
 =====================
-     05-06-2019
+     10-06-2019
 =====================
 1. Heads-up tile
 2. Less boring heads-up toggle
@@ -19,6 +19,7 @@
 4.Kernel Upstream to 3.18.140
 5.sanders: update camera blobs from stock OPSS28.65-36-9
 6.Update DTVPlayer- v.01.01.0586 to v.01.01.0660
+7.Add Support for Sound_Trigger_Enable
 
 =====================
      07-05-2019
