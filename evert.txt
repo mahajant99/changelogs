@@ -1,102 +1,208 @@
 ====================
-     05-12-2019
-====================
-
-
-   * frameworks/base/
-416209ea165 Fix 225693 SystemUI: add left and right virtual buttons while typing
-e8bca74ee5b SystemUI: add left and right virtual buttons while typing
-aa7666178d0 statusbar: adjust update logic for old mobile type
-d654fc10e9d base: Fix old mobile signal icons
-82f5c088b10 base: SystemUI: fix height of old data type icons
-0eb5f51e4d4 SystemUI: fix visibility of mobile type icon
-4f81ab091a5 [1/2] SystemUI: allow to switch back to pre P mobile type icon style
-b07460a5963 base: Add Q style battery icon toggle [1/2]
-15c34a58e44 Q style clock: Add DE translation.
-0b4773dd992 CustomTextClock: LangGuard: Update Portuguese translations - Also add langguard to strings below 20
-df62be967a4 CustomTextClock: Add more detailing to the functions - Basically fuckup everything and make it even more complex
-d38b4bed29f CustomTextClock: LangGuard: Add exceptions for turkish language
-0847afd6541 CustomTextClock: LangGuard: Fix dutch translations
-e37eb6a6094 Add Japanese and Dutch translation for Q text clock
-f9918e9d370 [1/2]: Add customisable alignment for Q style clock
-c2c9029ef1b CustomTextClock: Merge Translations
-287bce63f51 CustomTextClock: Fix my derps for O' - Only for en doe
-e4c625bd8c9 CustomTextClock: LangGuard: Remove unnecessary function to get hour strings seperately
-33b5ac8c22d CustomTextClock: Check if language has changed before setting toprow text
-220e9d9d0ba CustomTextClock: Remove methods moved in utility classes
-e76530cc5b6 CustomTextClock: This makes the lockscreen lag
-fd6d3c7e1b1 CustomTextClock: Ditch code related to color getting
-4117901dc90 CustomTextClock: Create LangGuard utility
-9615f3fa3df CustomTextClock: Refactor a few strings
-60f3f3871a2 CustomTextClock: Remove all logging - Now that its almost done
-a2af976cad6 CustomTextClock: Add O' again
-bcd77db89f2 CustomTextClock: Add Portuguese and French translations
-72ead7f3b8e CustomTextClock: Account for *almost* all of the possiblities while updating text color
-32c82752325 Squash Q-Clock un-hardcode strings and add translatable strings
-8711810d889 Revert "CustomTextClock: Allow translate clock strings"
-8493818dd6d Change TopTextView color according to wallpaper - After 2weeks of intensive mindfuck, it was as simple as putting it in onDraw - It wont be resource intensive as onDraw on topview isn't called constantly
-8ebda71fc56 Allow to dismiss notifications with back FP left/right swipe [1/2] if the panel is expanded.
-
-   * packages/apps/Settings/
-f66392d3c6 Settings: Add Q style battery icon toggle [2/2]
-e3d26bdeaf [2/2]: Add customisable alignment for Q style clock No shit Sherlock
-dc4f21c83b Allow dismiss notifications with FP left/right swipe [2/2]
-b429f5c90e [2/2] Settings: allow to switch back to pre P mobile type icon style
-
-====================
-     05-11-2019
+     06-26-2019
 ====================
 
 
    * device/motorola/evert/
-28e26b5 Update clang version
+8c6ccf5 Initial config for PixysOS
+7a570bf Initial config    *
 
    * device/motorola/sdm660-common/
-ae9a6f0d No need dependencies
-
-====================
-     05-10-2019
-====================
-
-
-   * frameworks/base/
-0d768cf3e1f SystemUI: refresh some stuffs without systemui reboot
-
-====================
-     05-09-2019
-====================
-
-
-   * build/make/
-e4979448a Remove TARGET_USES_MKE2FS
-
-   * prebuilts/build-tools/
-03f9124 Remove sed symlink.
-
-====================
-     05-08-2019
-====================
-
-
-   * device/motorola/evert/
-c6d3dd1 Switch to DEX kernel
-3b7b8da Set target bootanimation size
-3a45643 Initial configuration and fixes
-
-   * device/motorola/sdm660-common/
-05d9b333 Fix number SIM slot
-1da05653 Fix LineageActions build
-54dc7659 Initial configuration and fixes
-
-   * prebuilts/clang/host/linux-x86/
-cdfcf96c Update prebuilt Clang to r353983c.
-12c637db Update prebuilt Clang to r353983b.
+4a4ea26f Initial config for PixysOS
+898af16c Initian config    *
 
    * vendor/motorola/evert/
-55a9538 Fix SIM issues
+0dae2d4 Merge pull request #2 from Evert-Dev/pie-base
+bc34343 revert:evert: update audio files
+e5145b6 evert: update audio files
+c7c6076 removed libcamera_metadata
+5093e26 track missed camera imgtuner files
+409b6b9 import more motorola blobs
+cb8822a add motorola blobs
+4cbc259 update focaltech blobs
+a4373b6 update blobs
 
    * vendor/motorola/sdm660-common/
-d88cb72 Fix issues
+0fff440 Merge pull request #2 from Evert-Dev/pie-base
+cb5251b revert:evert: update audio files
+1793ba7 evert: update audio files
+0c10e45 track missed camera imgtuner files
+29bd253 add new FM concept, there no works yet
+22b39c9 import more motorola blobs
+140ddc7 sdm660-common: init perfd
+dcd212e add fm and audio blobs
+0c77c28 sdm660-common: fix perf spamming logs
+3db4522 payton: update blobs to PPWS29.69-26-6
+71a6bf3 sdm660-common: Add QCOM WFD Blobs
+4ef413c payton: Update SDM from LA.UM.7.4.r1-04100-8x98.0
+0906085 sdm660-common: Kang ims.apk and qti-telephony-common.jar from daisy
+685e660 payton: import blobs from PPW29.69-26
 
-   * vendor/pixys/
-bc3511b5 Update apns-conf.xml
+====================
+     06-25-2019
+====================
+
+
+   * kernel/motorola/msm8998/
+a6711f0d3743 bye permisive
+
+   * prebuilts/build-tools/
+fc80171 Merge "Revert "Add symlink for toybox tar.""
+
+   * prebuilts/clang/host/linux-x86/
+6f0af2fb Update prebuilt Clang to r353983d.
+
+====================
+     06-24-2019
+====================
+
+
+====================
+     06-23-2019
+====================
+
+
+   * kernel/motorola/msm8998/
+e4f10d4185d4 fuck twrp update to beta 1 r9.0
+582e2147e661 fix derps
+1709dcdc86a2 Merge tag 'v4.4.183' of https://source.codeaurora.org/quic/la/kernel/msm-4.4 into dexk5.1
+fa6afc9c59b4 reduce latency
+
+   * vendor/motorola/evert/
+de85208 Fix SIM issues
+
+====================
+     06-22-2019
+====================
+
+
+   * device/motorola/evert/
+c3aaa64 evert: update vendor prop from PPWS29.116-16-2
+cdbfc0b evert: update audio configs from PPWS29.116-16-2
+bb94ffc evert: Move vendor image file system to common tree
+
+   * device/motorola/sdm660-common/
+3e98d0fa Fix number SIM slot
+d2922c99 Fix LineageActions build
+62940d8f sdm660-common: Set vendor file system in common tree
+c9087e7b sdm660-common: update vendor SPL from payton PPWS29.69-26-6
+d9aaef91 sdm660-common: Fix perf spamming logs
+737f9bbf sdm660-common: Update init scripts
+e8a64a8e sdm660-common: update ueventd
+05c6d772 sdm660-common: rootdir: Reduce swappiness to it's minimal value
+9029360f sdm660-common: Set correct interface for cne server 1.1
+d5c3cb9c sdm660-common: Address fp gestures denial
+94fd6ee1 sdm660-common: overlay: Remove unnecessary whitespace
+8d4f31af sdm660-common: ueventd: Don't modify permissions of /dev/hw_random
+8eedec7a sdm660-common: Move to common data-ipa-cfg-mgr
+052300a7 sdm660-common: Pin wfd blobs
+cf22d11f sdm660-common: Add QCOM's WFD implementation
+5d755b86 sdm660-common: Set target FCM version = 2
+4937600f sdm660-common: Set correct persist mount point
+d6b235a3 sdm660-common: drop camera.aux.packagelist
+6152a707 sdm660-common: sepolicy: Allow qti_init_shell to set some additional properties
+6fc88a32 sdm660-common: sepolicy: Allow NFC data_vendor_file rw_file_perms
+d2f97353 sdm660-common: address chef fp denial
+da3f88c1 sdm660-common: Use payton mms_agent URL
+8735a107 sdm660-common: Remove send_mic_mute_to_AudioManager overlay
+2ae6dbe0 sdm660-common: Use tether automatic upstream selection
+847f70b8 sdm660-common: enable channel bonding for 2.4GHz WiFi
+7fa27b15 sdm660-common: Resolve some more denials
+b1948839 sdm660-common: improve gps
+1ea1a4d3 sdm660-common: overlay: enable ethernet in networkAttributes and radioAttributes
+96c4510b sdm660-common: Set persist.radio.aosp_usr_pref_sel=true
+1da13d31 sdm660-common: Fix manual network selection
+7f727fd8 sdm660-common: Resolve some more denials
+4ed892e7 sdm660-common: sepolicy: Allow hal_camera_default to set camera properties
+f5785fbf sdm660-common: Address dac_override & dac_read_search issues in init.qcom.sh
+76ed3c47 sdm660-common: decommonize FM radio
+8afae217 Revert "sdm660-common: Allow the Boot Control HAL access to all scsi devices it needs"
+b2c01f34 sdm660-common: Allow the Boot Control HAL access to all scsi devices it needs
+
+   * kernel/motorola/msm8998/
+308743255040 Linux 4.4.183
+df7ba8162ca1 Abort file_remove_privs() for non-reg. files
+8f6345a11caa coredump: fix race condition between mmget_not_zero()/get_task_mm() and core dumping
+3692bc31c1ff Revert "crypto: crypto4xx - properly set IV after de- and encrypt"
+39c7c903c63d scsi: libsas: delete sas port if expander discover failed
+a272035ea1bf scsi: libcxgbi: add a check for NULL pointer in cxgbi_check_route()
+af8cd6101bf5 net: sh_eth: fix mdio access in sh_eth_close() for R-Car Gen2 and RZ/A1 SoCs
+b25c62cc16e0 KVM: PPC: Book3S: Use new mutex to synchronize access to rtas token list
+7ef8d778cf3e ia64: fix build errors by exporting paddr_to_nid()
+432030b25b86 configfs: Fix use-after-free when accessing sd->s_dentry
+d5a18c8609f3 i2c: dev: fix potential memory leak in i2cdev_ioctl_rdwr
+be1b9df5bba1 net: tulip: de4x5: Drop redundant MODULE_DEVICE_TABLE()
+0bb6c295e463 gpio: fix gpio-adp5588 build errors
+dd961efe8dee perf/ring_buffer: Add ordering to rb->nest increment
+8abd8a9a975e perf/ring_buffer: Fix exposing a temporarily decreased data_head
+3e74b3f05abf x86/CPU/AMD: Don't force the CPB cap when running under a hypervisor
+f4678b7808e7 mISDN: make sure device name is NUL terminated
+e2f9c0f73454 sunhv: Fix device naming inconsistency between sunhv_console and sunhv_reg
+753aa7556089 neigh: fix use-after-free read in pneigh_get_next
+709d8771fab7 lapb: fixed leak of control-blocks.
+1777c35e8d47 ipv6: flowlabel: fl6_sock_lookup() must use atomic_inc_not_zero
+6f057abd08d1 be2net: Fix number of Rx queues used for flow hashing
+7139a9f6246d ax25: fix inconsistent lock state in ax25_destroy_timer
+f1a5c6b083bc USB: serial: option: add Telit 0x1260 and 0x1261 compositions
+a67d65958e2a USB: serial: option: add support for Simcom SIM7500/SIM7600 RNDIS mode
+b8ee804bba8f USB: serial: pl2303: add Allied Telesis VT-Kit3
+f14747c88170 USB: usb-storage: Add new ID to ums-realtek
+038c192699a9 USB: Fix chipmunk-like voice when using Logitech C270 for recording audio.
+8f6b0e59d2a0 drm/vmwgfx: NULL pointer dereference from vmw_cmd_dx_view_define()
+6e0c7e73232f drm/vmwgfx: integer underflow in vmw_cmd_dx_set_shader() leading to an invalid read
+ce391e4cdef8 KVM: s390: fix memory slot handling for KVM_SET_USER_MEMORY_REGION
+a1b9c6b4cba0 KVM: x86/pmu: do not mask the value that is written to fixed PMUs
+7caddacf863f usbnet: ipheth: fix racing condition
+f80a35fcb9e9 scsi: bnx2fc: fix incorrect cast to u64 on shift operation
+da51a322f197 scsi: lpfc: add check for loss of ndlp when sending RRQ
+3a2ff1088c2a Drivers: misc: fix out-of-bounds access in function param_set_kgdbts_var
+1f8233ca3a48 ASoC: cs42xx8: Add regcache mask dirty
+91f1fc1ae409 cgroup: Use css_tryget() instead of css_tryget_online() in task_get_css()
+8b47af927e2e bcache: fix stack corruption by PRECEDING_KEY()
+a2aabf288bf7 i2c: acorn: fix i2c warning
+d774bd27b4f5 ptrace: restore smp_rmb() in __ptrace_may_access()
+5aff00ee839a signal/ptrace: Don't leak unitialized kernel memory with PTRACE_PEEK_SIGINFO
+0b871fc866eb fs/ocfs2: fix race in ocfs2_dentry_attach_lock()
+c05fed507582 mm/list_lru.c: fix memory leak in __memcg_init_list_lru_node
+be499b84c3bd libata: Extend quirks for the ST1000LM024 drives with NOLPM quirk
+d7a18814fff9 ALSA: seq: Cover unsubscribe_port() in list_mutex
+4282a0b1db65 Revert "Bluetooth: Align minimum encryption key size for LE and BR/EDR connections"
+cd23996afa14 futex: Fix futex lock the wrong page
+38fbd5c2d572 ARM: exynos: Fix undefined instruction during Exynos5422 resume
+5767587907fd pwm: Fix deadlock warning when removing PWM device
+113a78a0a537 ARM: dts: exynos: Always enable necessary APIO_1V8 and ABB_1V8 regulators on Arndale Octa
+78184953a2ed pwm: tiehrpwm: Update shadow register for disabling PWMs
+d24e22cde8b3 dmaengine: idma64: Use actual device for DMA transfers
+533171620cd5 gpio: gpio-omap: add check for off wake capable gpios
+3b4652ba9d78 PCI: xilinx: Check for __get_free_pages() failure
+c869210e0ac6 video: imsttfb: fix potential NULL pointer dereferences
+5c7fbc5f6a7d video: hgafb: fix potential NULL pointer dereference
+bea8fa863ce9 PCI: rcar: Fix a potential NULL pointer dereference
+76208df36d7a PCI: rpadlpar: Fix leaked device_node references in add/remove paths
+100468652e5a ARM: dts: imx6qdl: Specify IMX6QDL_CLK_IPG as "ipg" clock to SDMA
+927d2be77e6c ARM: dts: imx6sx: Specify IMX6SX_CLK_IPG as "ipg" clock to SDMA
+8aee025af280 ARM: dts: imx6sx: Specify IMX6SX_CLK_IPG as "ahb" clock to SDMA
+b49501f51371 clk: rockchip: Turn on "aclk_dmac1" for suspend on rk3288
+4270dc6a7a79 soc: mediatek: pwrap: Zero initialize rdata in pwrap_init_cipher
+845676341c2d platform/chrome: cros_ec_proto: check for NULL transfer function
+c7155e51cf85 x86/PCI: Fix PCI IRQ routing table memory leak
+198a54f07f51 nfsd: allow fh_want_write to be called twice
+e6779b264d69 fuse: retrieve: cap requested size to negotiated max_write
+742cb74bf108 nvmem: core: fix read buffer in place
+750c55e69cca ALSA: hda - Register irq handler after the chip initialization
+09ad374f23ce iommu/vt-d: Set intel_iommu_gfx_mapped correctly
+9e4ed17b9416 f2fs: fix to do sanity check on valid block count of segment
+534ef922376e f2fs: fix to avoid panic in do_recover_data()
+90a238a8a2d2 ntp: Allow TAI-UTC offset to be set to zero
+25be7d51a012 drm/bridge: adv7511: Fix low refresh rate selection
+8fdebdd06c4b perf/x86/intel: Allow PEBS multi-entry in watermark mode
+dee1ba919ca2 mfd: twl6040: Fix device init errors for ACCCTL register
+4110c4188853 mfd: intel-lpss: Set the device in reset state when init
+1bef19130b5b kernel/sys.c: prctl: fix false positive in validate_prctl_map()
+937fa1624a1f mm/cma_debug.c: fix the break condition in cma_maxchunk_get()
+fceb0be41836 mm/cma.c: fix crash on CMA allocation if bitmap allocation fails
+9c8d4d77e3aa hugetlbfs: on restore reserve error path retain subpool reservation
+d8129a5d7a9d ipc: prevent lockup on alloc_msg and free_msg
+50c0db539937 sysctl: return -EINVAL if val violates minmax
+8b9241b052a2 fs/fat/file.c: issue flush after the writeback of FAT
+
