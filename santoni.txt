@@ -1,3 +1,15 @@
+
+=====================
+	02-07-2019
+=====================
+July Patch Merged
+1. Rootless substratum support(OMS)
+2. Added Q Activity Animations
+3. Added Animation on power menu (will notice while switching from main menu to advance)
+4. Some Q clock related Fixes
+5. Removed Unfinished stuff from the source.
+6. Added Dual Channel into Bluetooth Audio Channel Mode developer options.
+
 =====================
 	07-04-2019
 =====================
