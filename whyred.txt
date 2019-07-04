@@ -1,3 +1,29 @@
+==========================
+    Rom Side Changelog:
+==========================
+July Security Patch Merged
+With July You will get below listed changes
+1. Rootless substratum support(OMS)
+2. Added Q Activity Animations
+3. Added Animation on power menu (will notice while switching from main menu to advance)
+4. Some Q clock related Fixes
+5. Removed Unfinished stuff from the source.
+6. Added Dual Channel into Bluetooth Audio Channel Mode developer options.
+
+============================
+    Device Side Changelog
+============================
+1. whyred: Update to V10.3.1.0.PEIMIXM
+2. whyred: Import perf blobs from V10.3.1.0.PEIMIXM
+3. whyred: proprietary-files: update thermals config
+4. whyred: update proprietary files listing
+5. whyred: update system build props from V10.3.1.0.PEIMIXM 
+6. whyred: rootdir: Add missing dynamic fps node
+7. whyred: Using PureCaf x6 Kernel
+8. whyred: Update GPS from LA.UM.7.2.r1-06900-sdm660.0
+9. whyred: Add basic USB HAL that reports no status change
+10. whyred: sepolicy: Resolve init_fingerprint denials
+
 =====================
      15-05-2019
 =====================
