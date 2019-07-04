@@ -1,4 +1,19 @@
 =====================
+	02-07-2019
+=====================
+July Patch Merged (Weeklies from Now)
+1. Rootless substratum support(OMS)
+2. Added Q Activity Animations
+3. Added Animation on power menu (will notice while switching from main menu to advance)
+4. Some Q clock related Fixes
+5. Removed Unfinished stuff from the source.
+6. Added Dual Channel into Bluetooth Audio Channel Mode developer options.
+7. Upstreamed Kernel to 4.9.184
+8. Reverted the problematic GPS Blobs
+9. Updated Dirac vector icons
+10. Merged latest Flex Changes
+11. Many under the hood changes for better performance and stability
+=====================
      07-06-2019
 =====================
 1. June Security Patch Merged
