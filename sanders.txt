@@ -1,3 +1,35 @@
+==================
+    02.07.19
+==================
+Rom Side Changelog:
+July Security Patch Merged
+With July You will get below listed changes
+1. Rootless substratum support(OMS)
+2. Added Q Activity Animations
+3. Added Animation on power menu (will notice while switching from main menu to advance)
+4. Some Q clock related Fixes
+5. Removed Unfinished stuff from the source.
+6. Added Dual Channel into Bluetooth Audio Channel Mode developer options.
+
+======================
+Device Side Changelog:
+======================
+1. Sanders: update sensor_def_qcomdev.conf from stock OPS28.65-36-11
+2. Sanders: vendor_prop: update some VoLTE props 
+3. Sanders: thermal-engine: pull changes from tag 'LA.UM.7.6.r1-05300-89xx'
+4. Sanders: thermal-engine: Add bandwidth level request APIs to thermal …
+5. Sanders: rootdir: use all cores for camera daemon
+6. Sanders: Uprev Qtiradio to v2.3
+7. Sanders: wifi: Add leftover wifi configs from stock OPSS28.65-36-6
+8. Sanders: disable adaptive low memory killer
+9. Sanders: Add more props to fix VoLTE
+10. sanders: import CAF binderized power hal 
+11. sanders: update configs from OPSS28.65-36-9
+12. audio: update from OPSS28.65-36-9 
+13. Sander overlay: Switch to default call recording audio source
+14. Audio:hal: Add suppprt for Sound_trigger_enable 
+15. Kernel 3.18.140 - ExtremePlusKernel.
+
 =====================
      10-06-2019
 =====================
