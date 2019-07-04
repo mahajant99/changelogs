@@ -17,3 +17,16 @@
    
    * Used Pixel Fingerprints
    * And few other fixes
+
+
+   ##############
+   #  04/07/19  #
+   ##############
+   
+   July changelog:
+
+1. Used @devDoge trees
+2. Fixed ram management issue
+3. Enforcing build
+4. July security patch
+5. Pixys side changes
