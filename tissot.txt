@@ -1,4 +1,17 @@
 =====================
+	11-07-2019
+=====================
+1. Added battery bar customisations
+2. Added a new charging animation when plugged in
+3. Fixed force close of music apps like "Gaana"
+*Device specific
+4. Added spectrum support
+5. Added anxiety I/O scheduler
+6. Added fsync on/off support
+7. Added backlight dimmer
+8. Added vibration control
+9. Added usb fast charge
+=====================
 	02-07-2019
 =====================
 July Patch Merged (Weeklies from Now)
