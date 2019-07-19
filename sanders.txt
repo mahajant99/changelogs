@@ -1,3 +1,21 @@
+======================
+Device Side Changelog:
+======================
+1.sanders: gps: Increase batch size to max 
+2.sanders: gps: add missing config file from deen
+3.Update Spectrum profile
+4. sanders: Fix Gps
+
+==================
+    17.07.19
+==================
+July Weekly Update 17.07.19
+1. Added Qseekbar
+2. Introduce Pocket Lock/ judge
+3.pocket: Fix pocket lock view for display cutouts
+4.Pocket lock improvements
+5. Bluetooth:SBC Dual Channel Support
+
 ==================
     02.07.19
 ==================
