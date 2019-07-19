@@ -1,4 +1,13 @@
 =====================
+	19-07-2019
+=====================
+1. Pocket lock added (thanks to Paranoid Android team)
+2. Settings search bar revamped as in Q
+3. SBC dual channel support added
+4. Dark theme improved
+5. Q seekbar improvements
+6. Spectrum Profiles improved (Spectrum will stay on custom kernels as well)
+=====================
 	11-07-2019
 =====================
 1. Added battery bar customisations
