@@ -1,3 +1,35 @@
+============================
+    Device Side Changelog
+============================
+1.whyred: proprietary-files: add ..color@1.2 from V10.3.3.0.PEICNXM
+2.whyred: vendor_prop.mk: update all required vendor props 
+3.whyred: proprietary-files: add libperfgluelayer from V10.3.3.0.PEICNXM 
+4.whyred: overlay: add surfaceflinger to the list of pinned apps
+5.whyred: update audio features and props from LA.UM.7.2.r1-07000-sdm660.0 
+6.whyred: props: update from V10.3.3.0.PEICNXM 
+7.whyred: sepolicy: adressed wlan/p2p0 denials
+8.whyred: import wifi configs from V10.3.3.0.PEICNXM 
+9.whyred: prop: update audio/soundtrigger hal configs 
+10.whyred: gps: update configs from V10.3.3.0.PEICNXM
+11.whyred: sepolicy: adressed denials 
+12.whyred: props: add ims dbg props to fix carrierconfig restrictions
+13.overlay: use Pie qti-telephony-common 
+14.whyred: add missing wfd props and update graphics ones 
+15.whyred: update time service from V10.3.3.0.PEICNXM
+16.whyred: update vendor blobs from V10.3.3.0.PEICNXM
+17.whyred: add missing libperfgluelayer from V10.3.3.0.PEICNXM 
+18.whyred: update thermals from thermals-miui project 
+
+==========================
+    Rom Side Changelog:
+==========================
+July Weekly Update 17.07.19
+1. Added Qseekbar
+2. Introduce Pocket Lock/Bridge 
+3.pocket: Fix pocket lock view for display cutouts
+4.Pocket lock improvements
+5. Bluetooth:SBC Dual Channel Support
+
 ==========================
     Rom Side Changelog:
 ==========================
