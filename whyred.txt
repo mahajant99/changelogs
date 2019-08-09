@@ -1,3 +1,28 @@
+=====================
+     06-08-2019
+=====================
+1. August Security Patch Merged
+2. Added Smart Charging(Device need to support)
+3. Added Alarm Blocker
+4. Added Wakelock Blocker
+5. Added Carbon Gesture
+6. Added Window To Icon Animation to the Launcher
+7. Added Hide Notch Support
+8. Added Cutout force full screen
+9. Fixed Front Cam Force Close on Playgroud
+10. Disabled the Always on Display by Default
+11. Improved the Network Meter with compact Statusbar Icon
+12. Some Source Related Improvement for newer Devices.
+
+======================
+ Device Side Changelog
+ =====================
+1.whyred: audio: Add BT SCO to routes list
+2.whyred: audio: Load A2DP configuration from a2dp_audio_policy_configution
+3.whyred: audio: Update policy_configuration from caf 
+4.whyred: Update IFAA for pie blobs
+5.PureCaf Kernel X8
+
 ============================
     Device Side Changelog
 ============================
