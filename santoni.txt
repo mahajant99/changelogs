@@ -1,3 +1,18 @@
+=====================
+	07-08-2019
+=====================
+August Patch merged
+1. Added Alarm Blocker
+2. Added Wakelock Blocker
+3. Added Carbon Gesture
+4. Added Window To Icon Animation to the Launcher
+5. Improved the Network Meter with compact Statusbar Icon
+6. Some Source Related Improvement for newer Devices
+Device-
+1. Add flurence audio
+2. Update blobs
+3. Added perf props
+4. Optimised ART
 
 =====================
 	02-07-2019
