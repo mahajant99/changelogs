@@ -1,4 +1,21 @@
 =====================
+     29-08-2019
+=====================
+1. Added Long ScreenShot
+2. Added Colored Google At Launcher
+3. Added Thermal Controller
+=====================
+       Device
+=====================
+1. Upstreamed the kernel to 4.9.188
+2. Latest LOS trees merged
+3. Updated ZRAM configuration
+=====================
+        Bugs
+=====================
+1. None
+
+=====================
      07-08-2019
 =====================
 1. August Security Patch Merged
@@ -14,6 +31,15 @@
 11. Improved the Network Meter with compact Statusbar Icon
 12. Some Source Related Improvement for newer Devices.
 =====================
+       Device
+=====================
+1. None
+=====================
+        Bugs
+=====================
+1. None
+
+=====================
 	19-07-2019
 =====================
 1. Pocket lock added (thanks to Paranoid Android team)
@@ -21,20 +47,35 @@
 3. SBC dual channel support added
 4. Dark theme improved
 5. Q seekbar improvements
-6. Spectrum Profiles improved (Spectrum will stay on custom kernels as well)
+=====================
+       Device
+=====================
+1. Spectrum Profiles improved (Spectrum will stay on custom kernels as well)
+=====================
+        Bugs
+=====================
+1. None
+
 =====================
 	11-07-2019
 =====================
 1. Added battery bar customisations
 2. Added a new charging animation when plugged in
 3. Fixed force close of music apps like "Gaana"
-*Device specific
-4. Added spectrum support
-5. Added anxiety I/O scheduler
-6. Added fsync on/off support
-7. Added backlight dimmer
-8. Added vibration control
-9. Added usb fast charge
+=====================
+       Device
+=====================
+1. Added spectrum support
+2. Added anxiety I/O scheduler
+3. Added fsync on/off support
+4. Added backlight dimmer
+5. Added vibration control
+6. Added usb fast charge
+=====================
+        Bugs
+=====================
+1. None
+
 =====================
 	02-07-2019
 =====================
@@ -45,11 +86,19 @@ July Patch Merged (Weeklies from Now)
 4. Some Q clock related Fixes
 5. Removed Unfinished stuff from the source.
 6. Added Dual Channel into Bluetooth Audio Channel Mode developer options.
-7. Upstreamed Kernel to 4.9.184
-8. Reverted the problematic GPS Blobs
-9. Updated Dirac vector icons
-10. Merged latest Flex Changes
-11. Many under the hood changes for better performance and stability
+=====================
+       Device
+=====================
+1. Upstreamed Kernel to 4.9.184
+2. Reverted the problematic GPS Blobs
+3. Updated Dirac vector icons
+4. Merged latest Flex Changes
+5. Many under the hood changes for better performance and stability
+=====================
+        Bugs
+=====================
+1. None
+
 =====================
      07-06-2019
 =====================
@@ -72,10 +121,12 @@ July Patch Merged (Weeklies from Now)
 3. Added bfq and fiops ioscheduler
 4. Flex's latest trees merged
 =====================
+        Bugs
+=====================
+1. None
+
+=====================
     07-05-2019
-=====================
-=====================
-    Source-Side
 =====================
 May Security Patch Merged to source
 1. Dark Theme Improved
@@ -101,13 +152,18 @@ May Security Patch Merged to source
 21. Animate expandable volume panel
 22. Swipe fingerprint left/right to clear notifications(Device support needed)
 23. Old-style network indicator
-========================
-    Device-Specific
-========================
+=====================
+       Device
+=====================
 1. Latest Flex's trees merged
 2. Kernel upstreamed to 4.9.172
 3. Blu-schedutil added
 4. KCAL and KLAPSE support added to kernel. To know more about KLAPSE and how to use it refer this article https://forum.xda-developers.com/android/software-hacking/k-lapse-kernel-level-livedisplay-module-t3907031
+=====================
+        Bugs
+=====================
+1. None
+
 =====================
     03-04-2019
 =====================
@@ -126,8 +182,16 @@ April Patch Merged
 12. Implement alternative method for manual network select (add TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT := true to your device tree)
 13. Add settings icon on qs panel
 14. Improve Our PixysOS Logo
-15. Kernel Upstreamed to 4.9.166
-16. Updated defconfig
+=====================
+       Device
+=====================
+1. Kernel Upstreamed to 4.9.166
+2. Updated defconfig
+=====================
+        Bugs
+=====================
+1. None
+
 =====================
     15-03-2019
 =====================
@@ -152,11 +216,19 @@ April Patch Merged
 19. Add One Plus Switches default one
 20. Workaround for some banking apps wrongly telling that we are rooted (Tested in BHIM And TEZ (still need to disable phone services for TEZ)), Without any magisk or any module.
 21. Kernel upstreamed to .161
-22. Dirac Sound FX added
-23. IMS registration and volte icon issues fixed. Thanks to @flex1911
-24. Fixed FM radio
-25. Increased the amount of in-call and media volume steps
-26. More under the hood changes
+=====================
+       Device
+=====================
+1. Dirac Sound FX added
+2. IMS registration and volte icon issues fixed. Thanks to @flex1911
+3. Fixed FM radio
+4. Increased the amount of in-call and media volume steps
+5. More under the hood changes
+=====================
+        Bugs
+=====================
+1. None
+
 =====================
     18-02-2019
 =====================
@@ -179,5 +251,12 @@ April Patch Merged
 17. Add One Hand Gesture
 18. Add One Plus Switches default one
 19. Workaround for some banking apps wrongly telling that we are rooted (Tested in BHIM And TEZ (still need to disable phone services for TEZ)), Without any magisk or any module.
-20. Kernel upstreamed to 4.9.158.
-21. Launcher black and dark theme fixed.
+=====================
+       Device
+=====================
+1. Kernel upstreamed to 4.9.158.
+2. Launcher black and dark theme fixed.
+=====================
+        Bugs
+=====================
+1. None
