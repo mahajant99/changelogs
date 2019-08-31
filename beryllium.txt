@@ -1,14 +1,14 @@
-##############
-# 2019-08-28 #
-##############
+==========
+2019-08-28
+==========
 
-##########
-# Device #
-##########
+======
+Device
+======
 • Initial release
 
-#######
-# ROM #
-#######
+======
+Source
+======
 • Support Longshot
 • Colored G logo in search bar
