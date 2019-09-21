@@ -1,4 +1,4 @@
-## [2.4] - 2019-09-xx
+## [2.4] - 2019-09-21
 ### Added
 - Support notch hide
 - Support F2FS
