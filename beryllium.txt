@@ -1,14 +1,45 @@
-==========
-2019-08-28
-==========
+## [Unreleased]
 
-======
-Device
-======
-• Initial release
+## [2.4] - 2019-09-xx
+### Added
+- Support notch hide
+- Support F2FS
+- Support Auto Thermal Controller (MIUI inspired)
+- Support Dirac
 
-======
-Source
-======
-• Support Longshot
-• Colored G logo in search bar
+### Device
+- Update build fingerprint to V10.3.4.0
+- Merge linux 4.9.193 (Illusion kernel)
+- Kernel built with clang 9.0.5
+- Traffic indicators settings are now hidden when notch is visible
+- Improved smoothness and battery friendly
+
+### Fixed
+- Smart charging
+- Device certification (at least, for me)
+
+### Removed
+- Xiaomi's display feature service
+- Manual ThermalController
+
+### Security
+- 1 September 2019
+
+## [2.4] - 2019-08-28
+### Added
+- Google Camera by default
+- Illusion kernel by default
+- MIUI vibration pattern
+- Per app thermal
+
+### Device
+- Initial official release
+
+### Rom
+- Support Longshot
+- Colored G logo in search bar
+- New Material Designed updater
+- View changelog within the updater
+
+### Security
+- 1 August 2019
