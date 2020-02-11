@@ -1,0 +1,152 @@
+=====================
+     28-12-2019
+===================== 
+1. November Security Patch Merged
+2. Hardware Key Support Added(will show only for supported devices)
+3. Added Network Meter
+4. Added Profile button on Settings Search bar
+5. Fixed Dark theme for Setting Search Bar
+6. Properly fixed Network Fluctuations
+7. Added QS Columns Customization
+8. Added Multi Sim Ringtone Support
+9. Screen Recorder Added
+10. Screen Recorder: Add Options to Show taps, Show Stop Dot and low Quality Options
+11. Added Screen Recorder Tile
+12. LTE Tiles Added
+13. Accidental Touch Added
+14. Added Double tap to Sleep on desktop
+15. Added Some more Fonts
+16. Added Some more Accents Colors
+17. Droped Pixel Launcher and added Launcher3
+18. Protect sensitive info on About device
+19. Added PixelTheme app from Pixel 4
+20. Added Double tap to Sleep on desktop
+21. Google Feed Added to Launcher toggle
+22. Add toggle to remove Google Search Bar
+23. Swipe down Gesture to pull Notification Added
+24. Clear All on swipe  down from recent view Added
+25. Added LTE and 4G Icon Switch
+26. Add Option to remove x icon when data is disabled
+27. Add Option to remove Roaming Indicator
+28. Fixed Recent App Memory bug
+29. Add switch for linked ring and media notification volumes
+30. VoLTE icon added
+31. VoLTE icon Enable/disable Switch Added
+32. Added Heads Up options
+33. Add option to select brightness slider position
+34. Add Auto-brightness Button near brightness Slider.
+35. Added About Us Section(team and Official Maintainers Details)
+36. Digital Wellbeing for Non gapps FC Fixed
+37. Added Battery Style option
+38. Added Volume key Control Option
+39. Added Notification LED Light Customization
+40. Added Customizable Grid option to Launcher
+41. Added Battery temperature information
+42. Added Option to set the height of back gesture on Android New Q gesture.
+43. Added Ambient Music Support
+44. Added Compass Tile
+45. Added Binary Clock face
+46. Added Partial Screenshot Tile
+47. Added Reboot/Recovery QS Tile
+48. Fixed Many Failed Build Stuff During Compiling ROMS
+
+For Non Gapps Exclusive
+1. Added Call Recording Feature
+2. Added Auto Call Recording Feature
+3. Add setting to enable Do Not Disturb during calls
+=====================
+	DEVICE
+===================== 
+1. Initial Build
+
+=====================
+     11-01-2020 
+===================== 
+1. January Security Patch Merged
+2. Added Gaming Mode
+3. Added bolt ⚡️ (Icon) while charging
+4. Added Full Screen Gesture(Hide Pil)
+5. Added Smart Notification Feature
+6. Added Status bar clock/date customizations
+7. Added Option to disable Lockscreen Media Art
+8. Added lock screen media artwork blur.
+9. Added Option to Unlock phone with fingerprint after reboot
+10. Added option to disable fingerprint authentication vibration
+11. Added Smart Pixel(Will show only for supported Devices)
+12. Added Option for incall vibrations.
+13. Improved the Brightness Slider (Now Brightness +/- will functional)
+14. Added Option to Vibrate while pressing Volume Button
+15. Added Music QS
+16. Added Aggressive Battery Options
+17. Added Missing QS rows and landscape rows config 😛
+18. Added an option to change the device hostname
+19. FingerPrint On Display Implemented (Only for Supported Devices)
+20. Updated PixysOS Wallpaper
+21. Improved PixysOS Logo
+22. Improved PixysOS Volte Icon
+23. Improved From Source Side.
+=====================
+	DEVICE 
+===================== 
+1.- Update time services from LA.UM.8.6.r1-01900-89xx.0
+2. Update Dexpreopt flags
+3. Fixed auto brightness
+
+=====================
+     08-02-2020 
+===================== 
+1. February Security Patch Merged
+2. Improved the Defult Laucher
+3. Updated all our Explore Sections Icons
+4. Added Quick Settings Blur
+5. Improved the Theme Picker
+6. Added Samsung Lock Screen Clock
+7. Fix mobile data usage qs details
+8. Fixed the Accent Color issue on default printer service Icons
+9. Added LongShot(Long ScreenShot)
+10. Added Dark Theme To AOSP Dialer, contact and Messaging app.
+11. Imroved the UI and Funtion of Partial ScreenShot
+12. Add support for DiracSound FX(For Supported Devices)
+13. Fixed the internal audio recording issues
+14. Added Toggle for App Toast
+15. Improved the Toggle Pop up
+16. Lots of stuffs has been Improved from Source Side
+=====================
+	DEVICE 
+===================== 
+1. Fixed Volte for Airtel & vodafone
+2. Fixed RIL Fluctuations
+3. Fixed DT2W
+4. Fixed Random Reboot issue
+5. Fixed force reboot during initial boot
+6. Fixed A2DP issues
+7. Fixed Rotation Issue
+8. Fixed IMS Registration
+9. Fixed IR Blaster
+10. Fixed Volume Slider during Call
+11. Fixed Cast
+12. Fixed USB Tethering
+13. Disabled NearbyMessageService
+14. Increased incall Volume
+15. Enable USB Debugging on Boot
+16. Enabled Camera API2 by default
+17. Enable VENDOR_RIL_SUPPORT
+18. Use AOSP SurfaceFlinger
+19. Add aptx blobs from crosshatch QP1A.190711.020
+20. Allow active package broadcast
+21. Allow apps to use smart replies
+22. SafetyNet fixed when you aren't rooted
+23. Enable AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT
+24. Update Radio Stack to Q
+25. Update ims apk from LA.UM.8.6.r1-01900-89xx.0
+26. Update QC RIL service from LA.UM.8.6.2.r1-03700-89xx.0
+27. Update graphics and media from LA.UM.8.6.2.r1-03700-89xx.0
+28. Update postprocessing from LA.UM.8.6.2.r1-03700-89xx.0
+29. Update Widevine from LA.UM.8.6.2.r1-03700-89xx.0
+30. Update CNE/DPM/Time from LA.UM.8.6.2.r1-03700-89xx.0
+31. Update perf stack from LA.UM.8.6.2.r1-03700-89xx.0
+32. Update Wi-Fi Display blobs from LA.UM.8.6.2.r1-03700-89xx.0
+33. Update DRM/TEE blobs from LA.UM.8.6.2.r1-03700-89xx.0
+34. Update GPS stack to Q
+35. Update QTI bluetooth stack from LA.UM.8.6.2.r1-03700-89xx.0
+36. Update power-off alarm blobs from LA.UM.8.6.2.r1-03700-89xx.0
