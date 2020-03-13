@@ -142,3 +142,24 @@ For Non Gapps Exclusive
 1. Enabled Camera API2 by default
 2. Use AOSP SurfaceFlinger
 3. Fixed RIL Fluctuations
+
+=====================
+     13-03-2020 
+===================== 
+1. March security updates 
+2. Some source related fixes
+=====================
+	DEVICE 
+===================== 
+1. Fixed broken Earphones
+2. Fixed Volume Slider during Call
+3. Fixed GPS Issues
+4. Update Audio Configs
+5. Update Fingerprint To Coral March Security Patch
+6. Address sepolicy denials
+7. Add Doze
+8. Update Carrier Config
+9. Update Dexpreopt flag
+10. Minor improvements
+
+
