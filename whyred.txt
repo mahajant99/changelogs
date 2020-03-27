@@ -1,156 +1,39 @@
 
 ===============
-  30-08-2019
+  27-03-2020
 ===============
-1.Added Long Screenshot
-2.Added colored google at launcher
+1.March Security Patch.
+2.Source Improvement and Fixes.
 
 ===============
   Device side
 ===============
-1.whyred: audio: adjust mic volume when handset-stereo-dmic-ef was used
-2.whyred: proprietary-files: update Time Service from davinci
-3.whyred: vendor prop :update prop from MIUI
-4.whyred:Audio:sync with caf
-5.whyred:Update blob from v10.3.2PEIMIXM
-6.whyred:time service blob davinci
-7.whyred: import camera blobs
+1.Upstreamed kernel to 4.4.217
+2.Added Xiaomiparts.
+3.Added Mi Dirac support.
+4.Revert back to old cam blob.
 
 ==================
-   24-08-2019
+   12-02-2020
 ==================
-1. Added New Brand PixysOS Updater
-2. Some Optimizations
+1. February Security Patch Merged
+2. Improved the Defult Laucher
+3. Updated all our Explore Sections Icons
+4. Added Quick Settings Blur
+5. Improved the Theme Picker
+6. Added Samsung Lock Screen Clock
+7. Fix mobile data usage qs details
+8. Fixed the Accent Color issue on default printer service Icons
+9. Added LongShot(Long ScreenShot)
+10. Added Dark Theme To AOSP Dialer, contact and Messaging app.
+11. Imroved the UI and Funtion of Partial ScreenShot
+12. Add support for DiracSound FX(For Supported Devices)
+13. Fixed the internal audio recording issues
+14. Added Toggle for App Toast
+15. Improved the Toggle Pop up
+16. Lots of stuffs has been Improved from Source Side
 
 ====================
  Device Side Changes
 ====================
-1.whyred: Drop the creation of deprecated system_data folders
-2.whyred: import blobs from nhappy patch 
-3.whyred: audio: don't override these ACDB ids
-4.whyred: proprietary-files: Move QMI blob from platina to a new section 
-5.whyred: overlays: i don't like the animation at 1x
-6.whyred: kang thermal blobs from platina
-7.whyred: Add factory hal 1.1 to manifest 
-8.whyred: Adjust for QCOM BT HAL property name changes 
-9.whyred:refactor default hotspot name
-
-=====================
-     06-08-2019
-=====================
-1. August Security Patch Merged
-2. Added Smart Charging(Device need to support)
-3. Added Alarm Blocker
-4. Added Wakelock Blocker
-5. Added Carbon Gesture
-6. Added Window To Icon Animation to the Launcher
-7. Added Hide Notch Support
-8. Added Cutout force full screen
-9. Fixed Front Cam Force Close on Playgroud
-10. Disabled the Always on Display by Default
-11. Improved the Network Meter with compact Statusbar Icon
-12. Some Source Related Improvement for newer Devices.
-
-======================
- Device Side Changelog
- =====================
-1.whyred: audio: Add BT SCO to routes list
-2.whyred: audio: Load A2DP configuration from a2dp_audio_policy_configution
-3.whyred: audio: Update policy_configuration from caf 
-4.whyred: Update IFAA for pie blobs
-5.PureCaf Kernel X8
-
-============================
-    Device Side Changelog
-============================
-1.whyred: proprietary-files: add ..color@1.2 from V10.3.3.0.PEICNXM
-2.whyred: vendor_prop.mk: update all required vendor props 
-3.whyred: proprietary-files: add libperfgluelayer from V10.3.3.0.PEICNXM 
-4.whyred: overlay: add surfaceflinger to the list of pinned apps
-5.whyred: update audio features and props from LA.UM.7.2.r1-07000-sdm660.0 
-6.whyred: props: update from V10.3.3.0.PEICNXM 
-7.whyred: sepolicy: adressed wlan/p2p0 denials
-8.whyred: import wifi configs from V10.3.3.0.PEICNXM 
-9.whyred: prop: update audio/soundtrigger hal configs 
-10.whyred: gps: update configs from V10.3.3.0.PEICNXM
-11.whyred: sepolicy: adressed denials 
-12.whyred: props: add ims dbg props to fix carrierconfig restrictions
-13.overlay: use Pie qti-telephony-common 
-14.whyred: add missing wfd props and update graphics ones 
-15.whyred: update time service from V10.3.3.0.PEICNXM
-16.whyred: update vendor blobs from V10.3.3.0.PEICNXM
-17.whyred: add missing libperfgluelayer from V10.3.3.0.PEICNXM 
-18.whyred: update thermals from thermals-miui project 
-
-==========================
-    Rom Side Changelog:
-==========================
-July Weekly Update 17.07.19
-1. Added Qseekbar
-2. Introduce Pocket Lock/Bridge 
-3.pocket: Fix pocket lock view for display cutouts
-4.Pocket lock improvements
-5. Bluetooth:SBC Dual Channel Support
-
-==========================
-    Rom Side Changelog:
-==========================
-July Security Patch Merged
-With July You will get below listed changes
-1. Rootless substratum support(OMS)
-2. Added Q Activity Animations
-3. Added Animation on power menu (will notice while switching from main menu to advance)
-4. Some Q clock related Fixes
-5. Removed Unfinished stuff from the source.
-6. Added Dual Channel into Bluetooth Audio Channel Mode developer options.
-
-============================
-    Device Side Changelog
-============================
-1. whyred: Update to V10.3.1.0.PEIMIXM
-2. whyred: Import perf blobs from V10.3.1.0.PEIMIXM
-3. whyred: proprietary-files: update thermals config
-4. whyred: update proprietary files listing
-5. whyred: update system build props from V10.3.1.0.PEIMIXM 
-6. whyred: rootdir: Add missing dynamic fps node
-7. whyred: Using PureCaf x6 Kernel
-8. whyred: Update GPS from LA.UM.7.2.r1-06900-sdm660.0
-9. whyred: Add basic USB HAL that reports no status change
-10. whyred: sepolicy: Resolve init_fingerprint denials
-
-=====================
-     15-05-2019
-=====================
-1. Dark Theme Improved
-2. Add Option to edit the icon Of app
-3. Ability to change the Lable Of each App
-4. Q style text clock
-5 agressive battery
-6 lockscreen art filter ( 3 styles ; blur , grayscale & both)
-7 location tile cycles
-8 cpu info tile
-9 cellular icon from oos
-10 deep sleep info to uptime
-11. Add Uninstall Shortcut to launcher
-12. Setting Intelliginece FC Fixed
-13. Add Snap Cam
-14. Change the updater Changelog to new Repo
-15. Shift System Dashboard to below About Phone Section
-16. Ambient music ticket (also make it q like)
-17. Text clock improvements
-18. Statusbar brightness control
-19. Q style battery icon
-20. Vector drawables in weather client
-21. Animate expandable volume panel
-22. Swipe fingerprint left/right to clear notifications(Device support needed)
-23. Old-style network indicator
-=====================
-	DEVICE
-=====================
-1. Fixed manual network selection.
-2. Extend max visible notification icons to 6.
-3. Fix some apps having issue with 18:9 display.
-4. Revert dirac.
-5. Derp 5.3 changes.
-6. Kernel upstreamed to 4.4.179.
-7. Compile kernel with clang 9.0.3.
+1.Initial Build
