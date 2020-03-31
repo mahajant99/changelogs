@@ -162,4 +162,47 @@ For Non Gapps Exclusive
 9. Update Dexpreopt flag
 10. Minor improvements
 
-
+=====================
+     31-03-2020 
+=====================
+	DEVICE 
+===================== 
+1. Add Miui Camera
+2. Add back hostapd configs
+3. Fix Wifi issues
+4. Fix display wakeup 
+5. Improved Battery
+6. Use 4GB dalvik-heap config
+7. Force enable mobile network settings v2
+8. Enable adaptive brightness by default & Keep bluetooth off
+9. Enable 1.1 DataConnection HAL
+10. Enable IWLAN assisted mode
+11. Update Overlay Config 
+12. Update CarrierConfig overlay
+13. Updated Camera, Consumer IR, Fingerprint Blobs from Daisy Q (daisy-user-10-QKQ1.191002.002-V11.0.2.0.QDLMIXM-release-keys)
+14. Update QC RIL service from LA.UM.8.6.2.r1-06600-89xx.0
+15. Update CNE from LA.UM.8.6.2.r1-06600-89xx.0
+16. Update DPM from LA.UM.8.6.2.r1-06600-89xx.0
+17. Update Radio from LA.UM.8.6.2.r1-06600-89xx.0
+18 Update Modem from LA.UM.8.6.2.r1-06600-89xx.0
+19. Update QMI from LA.UM.8.6.2.r1-06600-89xx.0
+20. Update Time Service from LA.UM.8.6.2.r1-06600-89xx.0
+21. Update power-off alarm blobs from LA.UM.8.6.2.r1-06600-89xx.0
+22. Update perf stack from LA.UM.8.6.2.r1-06600-89xx.0
+23. Update postprocessing from LA.UM.8.6.2.r1-06600-89xx.0
+24. Update GPS stack from LA.UM.8.6.2.r1-06600-89xx.0
+25. Update graphics and media from LA.UM.8.6.2.r1-06600-89xx.0
+26. Update Update Peripheral manager from LA.UM.8.6.2.r1-06600-89xx.0
+27. Update Wi-Fi Display blobs from LA.UM.8.6.2.r1-06600-89xx.0
+28. Update Widevine from LA.UM.8.6.2.r1-06600-89xx.0
+29. Update DRM/TEE blobs from LA.UM.8.6.2.r1-06600-89xx.0
+30. Update QTI bluetooth stack from LA.UM.8.6.2.r1-06600-89xx.0
+31. Drop dpmservices
+32. Use MoonWayStar Kernel (Thanks to @moonwaystar)
+33. Merged Latest CAF Tag & Linux Stable
+34. Enable Fast Charge
+35. Many more Minor changes
+=====================
+	BUGS 
+===================== 
+1. Broken Back Portrait Mode
