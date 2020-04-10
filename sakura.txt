@@ -206,3 +206,29 @@ For Non Gapps Exclusive
 	BUGS 
 ===================== 
 1. Broken Back Portrait Mode
+
+=====================
+     10-04-2020 
+===================== 
+April Security Patch merged
+1. Battery bar
+2. Home button wake for available devices
+3. QS panel opacity
+4. Fixed screenshot sound toggle
+5. Double tap to trigger doze
+6. R preview style screerecorder
+7. Context aware bluetooth
+8. updated some vectors
+9. Notification log
+10. Selinux status in about device
+11. Face unlock
+12. Internal audio recording
+13. OOS style network meter
+14. Statusbar tuner
+15. Old network indicators
+16. Android R notification style
+17. Settings ui improvements
+18. Fixed theming issues on QS
+19. Introduced panel for mobile data, wifi , NFC & bluetooth
+20. Added some more fonts
+
