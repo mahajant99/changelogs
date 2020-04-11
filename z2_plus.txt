@@ -1,148 +1,51 @@
-=====================
-     18-04-2019 
-===================== 
-1. Stock Recents/Overview icon pack support 
-2. Support per-app icon and label customization 
-3. Lockscreen Clock Styles: Introduce Q style text clock 
-4. Agressive battery settings 
-5. Cellular qs tile from OOS 
-6. Lockscreen cover art filter 
-7. Location tile : make it cycle modes 
-8. Added Cpu info toggle tile 
-9. Added deep sleep info into uptime 
-10. improved dark theme 
-=====================
-	DEVICE
-===================== 
-1. fixed audio issues
-2. switched to cfq
-3. fixed volte issues 
-4. kernel : merged latest caf tag
-5. kernel : added boeffla wakelock blocker
 
 =====================
-     02-04-2019 
-===================== 
-1. April Patch Merged 
-2. Added expandable Volume bar 
-3. Add Always On Display While Charging 
-4. Add toggle to Wake on plug 
-5. Minor Theme Related Fixes 
-6. Updater Issue fixed "After Download latest Build still it showing update Available" 
-7. Add New Animation for Battery Stats 
-8. New VoLTE Icon Added 
-9. fix statusbar clock overlapping after reboot 
-10. Add Back WPS connect 
-11. Add Auto brightness for Ambient Display 
-12. Add Uptime on About Phone Setion 
-13. Implement alternative method for manual network select. 
-14. Add settings icon on qs panel
-15. Improve Our PixysOS Logo
-=====================
-	DEVICE 
-===================== 
-1.Update full graphics stack from LA.UM.7.5.r1-03700-8x96.0
-2.Update blobs from daisy 9/PKQ1.180917.001/V10.0.7
-3.improved miracast audio , etc (needs testing) 
-4.hmp kernel by default 
-5.kernel : added wireguard support
-6.kernel : added sound control
-
-=====================
-    06-03-2019
-=====================
-1. March Security Patch Merged (android 9.0.0 r34)
-2. Fwb Boost (Only for Supported devices)
-3. Dark Theme for Google Feed
-4. Added toggle to lock ur desktop items
-5. Added AGPS setting menu
-6. Added dark/black theme for Digital welbeing
-7. Added DiracSound FX For Supported Devices Only
-8. Add Notch Friently VoLTE icon (Only for Notch Device)
-9. More Fixxes Added for Themeing Related
-10. Removed the Swipe Up arrow mark from Launcher(Many Users Dont like that)
-11. Removed Three Dot menu From Battery Dashboard, u can tap battery icon directly to see battery stat
-12 DEVICE;* Fixed Encryption
-13 DEVICE;* Latest Bubblewarp
-14.DEVICE* KCAL (Display colour calibration)
-14.DEVICE* Fixed wrong mac addresses
-16.DEVICE* kernel compiled with clang 9.0.1
-17.DEVICE* switched to aosp offline charger
-18.DEVICE* fixed dark gcam video
-19.DEVICE* fixed mic less headphone issues
-
-=====================
-    09-05-2019 
-=====================
-1. Add Uninstall Shortcut to launcher 
-2. Setting Intelliginece FC Fixed 
-3. Add Snap Cam 
-4. Change the updater Changelog to new Repo 
-5. Shift System Dashboard to below About Phone Section 
-6. Ambient music ticket (also make it q like) 
-7. Text clock improvements 
-8. Statusbar brightness control 
-9. Q style battery icon 
-10. Vector drawables in weather client 
-11. Animate expandable volume panel 
-12. Swipe fingerprint left/right to clear notifications
-13. Old-style network indicator
+   10/04/2020
 ====================
-      DEVICE 
-==================== 
-* Use Auto brightness for Ambient Display 
-* Enable OEM unlock and bootable image signing (so you'll be able to relock the device on custom ROMs when using the latest 3.3.0-1 TWRP) 
-* update init.msm.usb.* from LA.UM.7.6.2.r1-07600-89xx.0 
-* Added proper qcom aptx audio support 
-* Fixed navbar issues 
-* U-touch customisation 
-* Kernel compiled with latest clang 
-9.0.3 with all warnings fixed 
-* Kernel : merged 4.4.178
-* Kernel : merged latest caf tag (LA.UM.7.5.2.r1-02600-8x96.0 )
 
-===================== 
-   08/06/2019
-===================== 
-• Heads-up tile 
-• Less boring heads-up toggle 
-• Lockscreen and ambient visualizer 
-• Media notification seekbar 
-• Enhanced battery estimate in QS 
-• Improved status bar icons and padding 
-• Improved 3-fingers screenshot 
-• Rounded corners and padding options
+April Security Patch merged 
+1. Battery bar 
+2. Home button wake for available devices 
+3. QS panel opacity 
+4. Fixed screenshot sound toggle 
+5. Double tap to trigger doze 
+6. R preview style screerecorder 
+7. Context aware bluetooth 
+8. updated some vectors 
+9. Notification log 
+10. Selinux status in about device 
+11. Face unlock 
+12. Internal audio recording 
+13. OOS style network meter 
+14. Statusbar tuner 
+15. Old network indicators 
+16. Android R notification style 
+17. Settings ui improvements 
+18. Fixed theming issues on QS 
+19. Introduced panel for mobile data, wifi , NFC & bluetooth
+20. Added some more fonts
 
-=====================
-    Device
-====================
-• added Mac randomization
-• updated sepolicies
-• back to daisy power off alarm
-• kernel merged latest CAF tag ( 'LA.UM.7.5.2.r1-02900-8x96.0')
-• kernel merged 4.4.180 :)
+========================
+      Device
+========================
 
-====================
-   29/08/2019 
-==================== 
-1. August Security Patch 
-2. New redesigned OTA app 
-3. Added Alarm Blocker 
-4. Added Wakelock Blocker 
-5. Added Carbon Gesture 
-6. Added Window To Icon Animation to the Launcher 
-7. Added Hide Notch Support 
-8. Added Cutout force full screen 
-9. Fixed Front Cam Force Close on Playgroud 
-10. Disabled the Always on Display by Default
-11. Improved the Network Meter with compact Statusbar Icon
-12. Added Long ScreenShot
-13. Added Colored Google At Launcher
-
-====================
-    Device
-====================
-1. Kernel rebased over los tree
-2. Upstreamed : 4.4.190 , latest android linux stable 
-3. Removed some unnecessary stuffs 
-4. Clang 9.0.6
+1. Rebased Device tree 
+2. Cleaned up many unnecessary commits 
+3. Enforcing 
+4. Vowifi in Airtel 
+5. Fixed random volte drop on some carriers 
+6. Kernel : merged latest CAF tags 
+7. Kernel : v4.4.218 
+8. Kernel : popthecorn V2.2 
+9. Huge blobs updates from daisy 
+10. Bring back ZukDoze 
+11. Updated Dirac blobs 
+12. Surfacefliger updates 
+13. Improved HDR processing & some updates 
+14. Set zram as 2GB 
+15. Use 4GB dalvik-heap config 
+16. Added back ANT+ 
+17. Fixed press2wake 
+18. Pixel offline charging animation 
+19. Fixed Bluetooth call issues 
+20. Using coral April fp ( dunno why added it lmao)
