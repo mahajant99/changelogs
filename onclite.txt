@@ -1,42 +1,36 @@
 ====================
-     10.03.2020
+     13.04.2020
 ====================
 
 SOURCE:
 
-1. Merged March security patch.
+April Security Patch merged
+1. Battery bar
+2. Home button wake for available devices
+3. QS panel opacity
+4. Fixed screenshot sound toggle
+5. Double tap to trigger doze
+6. R preview style screerecorder
+7. Context aware bluetooth
+8. updated some vectors
+9. Notification log
+10. Selinux status in about device
+11. Face unlock
+12. Internal audio recording
+13. OOS style network meter
+14. Statusbar tuner
+15. Old network indicators
+16. Android R notification style
+17. Settings ui improvements
+18. Fixed theming issues on QS
+19. Introduced panel for mobile data, wifi , NFC & bluetooth
+20. Added some more fonts
 
 
 DEVICE:
 
-1.  Disabled SystemUI anti-falsing on lockscreen.
-2.  Enabled AOD.
-3.  Enabled Smart Pixel's Overlay.
-4.  Added manual network search.
-5.  Removed IMS HD icon from notification.
-6.  Enabled USB debugging at boot.
-7.  Blocked some wakelocks.
-8.  Fixed lag and green screen on screen recording.
-9.  Set google autofill service as default.
-10. Removed Wi-Fi dual band support.
-11. Force enabled mobile network settings v2.
-12. Added Pixel offline charging animation.
-13. Enabled native audio.
-14. Added energy-awareness service.
-15. Use 4GB dalvik-heap config.
-16. Added MiuiCamera.
-17. Enabled auto-brightness by default.
-18. Disabled NearbyMessagingService.
-19. Enabled IWLAN assisted mode.
-20. Expanded Z-RAM to 2 gb.
-21. Enabled video pause workaround for video calling.
-22. Added native video calling prop.
-23. Enabled QCRIL radio power saving. 
-24. Localised NTP to improve GPS TTFF. 
-25. Enabled Wi-Fi Aware.
-26. Fixed KCAL and thermal in XiaomiParts.
-27. Added Backlight Dimmer toggle & USB fastcharge switch in XiaomiParts.
-28. Upstreamed kernel to 4.9.215 .
-29. Added simple low memory killer.
-30. Replaced Schedutil with Pixel_smurfutil.
-31. Added sdFAT driver.
+1. Switched to FBE.
+2. Selinux enforcing.
+3. Fixed black screen issue on screen rotation.
+4. Fixed missing network traffic indicator options.
+5. Upstreamed kernel to 4.9.218 .
