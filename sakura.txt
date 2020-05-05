@@ -232,3 +232,27 @@ April Security Patch merged
 19. Introduced panel for mobile data, wifi , NFC & bluetooth
 20. Added some more fonts
 
+=====================
+     06-05-2020 
+===================== 
+1. May security updates 
+2. Some source related fixes
+=====================
+	DEVICE 
+===================== 
+1. Fixed Portrait FC
+2. Fixed Bluetooth Mic
+3. Fixed Third Party Apps Mic Issue
+4. Fixed Camera Flash light for Third Party Apps
+5. Add Kal support
+6. Add DTW2 support for both touchscreen
+7. Update Touchscreen & FP drivers
+8. Update Camera & FP blobs from Daisy QKQ1.191002.002-V11.0.4.0.QDLMIXM
+9. Update qti priv-permission whitelist from  LA.UM.8.6.2.r1-06600-89xx.0
+10. Update qti_whitelist from LA.UM.8.6.2.r1-06600-89xx.0
+11. Update Listen/Voice from LA.UM.8.6.2.r1-06600-89xx.0
+12. Update audio configuration from LA.UM.8.6.2.r1-06600-89xx.0
+13. Update audio stack from LA.UM.8.6.2.r1-06600-89xx.0
+14. Update ADSP from LA.UM.8.6.2.r1-06600-89xx.0
+15. Update CDSP blobs from LA.UM.8.6.2.r1-06600-89xx.0
+16. Upstream Kernel to 4.9.220
