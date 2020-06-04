@@ -256,3 +256,53 @@ April Security Patch merged
 14. Update ADSP from LA.UM.8.6.2.r1-06600-89xx.0
 15. Update CDSP blobs from LA.UM.8.6.2.r1-06600-89xx.0
 16. Upstream Kernel to 4.9.220
+
+=====================
+     06-05-2020 
+===================== 
+1. June security updates
+2. Added 5 clock styles (from btlg)
+3. Added 2 new primary colours (ocean & oneplus dark)
+4. Added grid customisation in launcher
+5. Privacy indicator improvements
+6. Added a toggle to statusbar privacy indicator
+7. Added internal audio recording
+8. Added adaptive playback
+9. Hold QS setting icon for pixys settings
+10. Fixed less boring headsup
+11. Removed junky lockscreen animation
+12. Added lockscreen charging animation
+13. Fixed QS battery tile 
+14. Per app data restrictions
+15. Fixed settings avatar
+16. Many theming fixes and improvements
+17. Updated google sans font and set a default
+18. Added Flower icon shape from R DP4
+19. Toggle for QS edit icon avatar on QQS & QS
+20. Launcher: added kill action to recents popup
+21. Fixed wallpaper crash
+=====================
+	DEVICE 
+===================== 
+1. Enforcing
+2. Address Sepolicy Denails
+3.  Fixed VoWifi (Currently only Working for Jio)
+4. Enable frameworks boost
+5. Update factory version to v2.1 
+6. Update powerhint from LA.UM.8.6.2.r1-07100-89xx.0
+7. Update GPS config from LA.UM.8.6.2.r1-07100-89xx.0
+8. Update Listen Blobs from LA.UM.8.6.r1-02600-89xx.0
+9.. Update Overlay from daisy-user-10-QKQ1.191002.002-V11.0.5.0.QDLMIXM-release-keys
+10. Update Camera Blobs from daisy-user-10-QKQ1.191002.002-V11.0.5.0.QDLMIXM-release-keys
+11. Update ADSP & ADSP Modules blobs from daisy-user-10-QKQ1.191002.002-V11.0.5.0.QDLMIXM-release-keys
+12. Update Audio blobs from daisy-user-10-QKQ1.191002.002-V11.0.5.0.QDLMIXM-release-keys
+13. Update Graphics firmware blobs from daisy-user-10-QKQ1.191002.002-V11.0.5.0.QDLMIXM-release-keys
+14. Update Audio ACDB from daisy-user-10-QKQ1.191002.002-V11.0.5.0.QDLMIXM-release-keys
+15. Update Thermal blobs from daisy-user-10-QKQ1.191002.002-V11.0.5.0.QDLMIXM-release-keys
+16. Import SCVE blobs from daisy-user-10-QKQ1.191002.002-V11.0.5.0.QDLMIXM-release-keys
+17. Import IO Prefetcher blobs from daisy-user-10-QKQ1.191002.002-V11.0.5.0.QDLMIXM-release-keys
+18. Import Latency blobs from daisy-user-10-QKQ1.191002.002-V11.0.5.0.QDLMIXM-release-keys
+19. Import Soter blobs from daisy-user-10-QKQ1.191002.002-V11.0.5.0.QDLMIXM-release-keys
+20. Import CDSP blobs from daisy-user-10-QKQ1.191002.002-V11.0.5.0.QDLMIXM-release-keys
+21. Import ESE Powermanager blobs from daisy-user-10-QKQ1.191002.002-V11.0.5.0.QDLMIXM-release-keys
+22.  Upstream Kernel To 223
