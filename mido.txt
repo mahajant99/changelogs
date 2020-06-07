@@ -1,46 +1,14 @@
-=====================
-     12-02-2020
-===================== 
-Source side changes:-
-1. February Security Patch Merged
-2. Improved the Defult Laucher
-3. Updated all our Explore Sections Icons
-4. Added Quick Settings Blur
-5. Improved the Theme Picker
-6. Added Samsung Lock Screen Clock
-7. Fix mobile data usage qs details
-8. Fixed the Accent Color issue on default printer service Icons
-9. Added LongShot(Long ScreenShot)
-10. Added Dark Theme To AOSP Dialer, contact and Messaging app.
-11. Imroved the UI and Funtion of Partial ScreenShot
-12. Add support for DiracSound FX(For Supported Devices)
-13. Fixed the internal audio recording issues
-14. Added Toggle for App Toast
-15. Improved the Toggle Pop up
-16. Lots of stuffs has been Improved from Source Side
-17. Now you can also update latest build from OTA
-=====================
-	DEVICE 
-===================== 
-1. Improved network fluctuation compared to previous build
-2. Fixed all recent menu animation lag compared to previous build
-3. Improved sound effects on Dirac sound
-4. Improved overall app opening speed 
-5. Improved overall system UI smoothness
-6. Fixed slow charging problem now no need to install optimise terminal engine module
-7. Update media configs blogs from LA.UM.8.6.r1-02600-89xx.0
-9. Update Media/WiFi Display blobs from LA.UM.8.6.r1-02900-89xx.0
-10. Update graphics stack blobs from LA.UM.8.6.r1-02900-89xx.0
-11. Update Radio/IMS from LA.UM.8.6.r1-02900-89xx.0
-12. Update CNE/DPM from LA.UM.8.6.r1-02900-89xx.0
-13. Update shell scripts from LA.UM.8.6.r1-02900-89xx.0
-14. Update Audio/ACDB blobs from LA.UM.8.6.r1-02600-89xx.0
-15. Update FM from LA.UM.8.6.r1-02600-89xx.0
-16. Update QTI Bluetooth blobs from LA.UM.8.6.r1-02600-89xx.0
-17. Fixed shutdown time delay 
-18. Improved smoother scrolling and better responsiveness 
-19. Updated default kernel to clarity EAS
-=====================
-	BUG
-===================== 
-1.goodix ded
+Source change log :-
+https://t.me/PixysOS/565
+
+Device Change log :-
+Device tree rebased for zeelog
+SElinux Enforce build
+default karnel is a Fox kernel
+Removed HD notification for jio user
+Fixed network fluctuation
+Enabled 1080p on Youtube
+Fixed lags on some Google wallpapers
+Added support for smart replies
+
+Support group :- https://t.me/pixystag
