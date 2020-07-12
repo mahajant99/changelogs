@@ -1,3 +1,15 @@
+================
+13-07-2020
+================
+DEVICE
+================
+
+1. Added LiveDisplay 
+2. Added Overclock painel up to 65hz
+3. Added Balanced Thermal
+4. Update blobs OpenGL-ES-3.2-V@454.0_treble
+5. Update blobs vulkan 1.1.128_treble
+
 =========================================
 07-07-2020
 =========================================
