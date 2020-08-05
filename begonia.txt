@@ -1,13 +1,29 @@
 =====================
-     24-07-2020
+     05-08-2020
 =====================
+1. August Security Patch Merged.
+2. Added Screen off torch gesture.
+3. Added Applock Support to Launcher.
+4. Added Launcher icon size customization.
+5. Added Launcher uninstall shortcut.
+6. Removed duplicate theme picker.
+7. Fixes minor & improvements on the launcher.
+8. Added daily/monthly data usage.
+9. Added ios like clipboard warnings.
+10. Added battery estimates in QS.
+11. Added smart space (requires gugal app).
+12. Fixed broken cts for some devices.
+13. Improved qs detail layout.
+14. Fixed wifi tile issues on some styles.
+15. Fixed page indicator padding.
 =====================
        Device
 =====================
-1. Fixed IMS service crashes when connecting or disconnecting from WiFi
+1. Fix IMS service crashes when connecting or disconnecting from WiFi.
+2. Upstream kernel to release 4.14.191.
 
 =====================
-     17-07-2020
+     08-07-2020
 =====================
 1. July security patch.
 2. Disabled statusbar privacy indicator by default.
@@ -20,18 +36,13 @@
 9. Added touch hal support.
 10. Fixed QS date info.
 11. Added battery health.
-12. Import powerusagefeaturefactory from pixel.
-13. Added iconshapes from android R beta.
-14. Permissions: Stop auto-granting location to system browsers.
-15. Upstreamed FOD.
-16. Fixed qs footer warning.
 =====================
        Device
 =====================
-1. Fixed IMS for many carriers.
-2. Fixed NFC.
-3. Fixed Night-light.
-4. Fixed statusbar height to match notch.
-5. Completely fix IMS stack.
-6. Upstream kernel to Linux 4.14.187.
-7. Performance improvements.
+1. Completely fix IMS stack
+2. Fix IMS for many carriers (as per user reports)
+3. Fix NFC (thanks @valap!)
+4. Fix Night-light
+5. Fix statusbar height to match notch
+6. Upstream kernel to Linux 4.14.187
+7. Performance improvement
