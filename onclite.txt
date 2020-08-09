@@ -1,34 +1,29 @@
 ====================
-     05.06.2020
+     09.08.2020
 ====================
 
 SOURCE:
 
-June Security Patch merged
-1.  Added 5 clock styles (from btlg)
-2.  Added 2 new primary colours (ocean & oneplus dark)
-3.  Added grid customisation in launcher
-4.  Privacy indicator improvements
-5.  Added a toggle to statusbar privacy indicator
-6.  Added internal audio recording
-7.  Added adaptive playback
-8.  Hold QS setting icon for pixys settings
-9.  Fixed less boring headsup
-10. Removed junky lockscreen animation
-11. Added lockscreen charging animation
-12. Fixed QS battery tile 
-13. Per app data restrictions
-14. Fixed settings avatar
-15. Many theming fixes and improvements
-16. Updated google sans font and set a default
-17. Added Flower icon shape from R DP4
-18. Toggle for QS edit icon avatar on QQS & QS
-19. Launcher: added kill action to recents popup
-20. Fixed wallpaper crash
-
+• August Security Patch Merged
+• Added Screen off torch gesture
+• Added Applock Support to Launcher
+• Added Launcher icon size customization
+• Added Launcher uninstall shortcut
+• Removed duplicate theme picker
+• Fixes minor & improvements on the launcher
+• Added daily/monthly data usage
+• Added ios like clipboard warnings
+• Added battery estimates in QS
+• Added smart space (requires gugal app)
+• Fixed broken cts for some devices
+• Improved qs detail layout
+• Fixed wifi tile issues on some styles
+• Fixed page indicator padding
 
 DEVICE:
 
-1.  Fixed FM Radio
-2.  Fixed QS second row missing in landscape mode
-3.  Upstreamed kernel to 4.9.226
+• Rebased kernel.
+• Enabled LiveDisplay.
+• Updated OpenGL and Vulkan.
+• Added Moto Dolby.
+• Few other improvements.
