@@ -1,32 +1,19 @@
-
 =====================
-   06/08/2020
+   15/08/2020
 ====================
 
-Rom Side :-
+Rom side :-
 
-1. August Security Patch Merged
-2. Added Screen off torch gesture
-3. Added Applock Support to Launcher
-4. Added Launcher icon size customization
-5. Added Launcher uninstall shortcut
-6. Removed duplicate theme picker
-7. Fixes minor & improvements on the launcher
-8. Added daily/monthly data usage
-9. Added ios like clipboard warnings
-10. Added battery estimates in QS
-11. Added smart space (requires gugal app)
-12. Fixed broken cts for some devices
-13. Improved qs detail layout
-14. Fixed wifi tile issues on some styles
-15. Fixed page indicator padding
+* merged qti bluetooth 
+* added TWS support
 
 Device side :-
 
-* kernel: merged 4.4.232
-* updated ims,qmi,ril stack
-* cleaned up many useless props
-* added aosp rcs packages
-* improved scrolling 
-* fixed some moar log spam
-* Fixed VoWIFI
+* Update bluetooth from LA.UM.8.6.r1-03400-89xx.0
+* Switched to qti Bluetooth stack 
+* improved Bluetooth audio 
+* Compile hwui for better performance 
+* Added Camera HAL 1 support 
+* fixed camera lag on some 3rd party apps 
+* Fixed audio recording in gcam
+* dropped ANT+ for now
