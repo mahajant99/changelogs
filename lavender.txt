@@ -1,4 +1,12 @@
 ================
+DEVICE - 24-08-2020
+================
+1. Updated Kernel to Bagual-Veio 1.2 4.4.233
+2. Full OC removed
+3. Some improvements
+================
+
+================
 DEVICE - 17-08-2020
 ================
 1. Updated to Firmware Global Q v11.0.1
