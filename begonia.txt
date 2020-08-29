@@ -1,4 +1,19 @@
 =====================
+     29-08-2020
+=====================
+=====================
+       Device
+=====================
+1. Completely fix IMS stack.
+2. Fix offline charging (custom kernels may break it, until they're updated!).
+3. Add support for MiSoundFX.
+4. Upstream kernel to latest Linux 4.14.195.
+5. Enable vDSO in kernel.
+6. Update drivers from begonia-q-oss.
+7. Enforcing selinux.
+8. Fix Netflix 1080p crashes.
+9. Misc performance and stability improvements.
+=====================
      05-08-2020
 =====================
 1. August Security Patch Merged.
